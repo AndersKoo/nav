@@ -25,7 +25,7 @@ function Jobs() {
     setPageNumber(selected);
   };
 
-  // Display of job applications (10 applications for each site)
+  // Display of job applications (10 applications for each page)
   const displayJobs = items
     .slice(pagesVisited, pagesVisited + jobsPerPage)
     .map((jobs) => {
