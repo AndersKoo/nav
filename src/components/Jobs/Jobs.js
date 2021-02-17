@@ -16,7 +16,11 @@ function Jobs() {
   // Functions
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  // Decimal round up for pagecount
   const pageCount = Math.ceil(items.length / jobsPerPage);
+
+  // Changes page to the current page (on click)
   const changePage = ({ selected }) => {
     setPageNumber(selected);
   };
