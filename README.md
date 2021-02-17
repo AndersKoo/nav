@@ -6,7 +6,8 @@ Dette er en enkel app/nettside som henter stillingsannonser fra NAV's REST-API o
 
 ## Test på egen maskin<br>
 1. Last ned repo
-2. Åpne terminal og kjør `npm start`
+2. cd nav
+3. Kjør `npm start`
 
 ## Kilder<br>
 How to create a Navigation Bar in React ⏸ | React Tutorial (2020)<br>
@@ -19,4 +20,3 @@ A ReactJS component to render a pagination.<br>
 https://www.npmjs.com/package/react-paginate<br>
 Movies App - React Project<br>
 https://www.youtube.com/watch?v=sZ0bZGfg_m4<br>
-
