@@ -67,7 +67,7 @@ function Jobs() {
   // Connection to API
   useEffect(() => {
     fetch(
-      "https://arbeidsplassen.nav.no/public-feed/api/v1/ads?size=500&page=1",
+      "https://arbeidsplassen.nav.no/public-feed/api/v1/ads?size=100&page=1",
       {
         method: "GET",
         headers: {
