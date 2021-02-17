@@ -1,0 +1,183 @@
+/* Custom properties */
+:root {
+  --clr-background: #182952;
+  --clr-job-app: #2b3595;
+  --clr-font: white;
+  --clr-main-markup: #e14594;
+  --clr-secondary-markup: #fed000;
+}
+
+/* Background container */
+.app {
+  background-color: var(--clr-background);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2em;
+  width: 100vw;
+  position: relative;
+}
+
+/* Jobs container */
+.jobs {
+  margin-left: 27px;
+  margin-top: 29px;
+  color: white;
+  background-color: var(--clr-job-app);
+  border-radius: 5px;
+  z-index: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+
+/* Helper class  */
+.bold {
+  font-weight: bold;
+}
+
+.rightCorner {
+  margin-left: 20em;
+  position: relative;
+  top: -5em;
+}
+
+/* Job */
+.job {
+  width: 450px;
+  text-align: center;
+  margin-top: 2em;
+}
+
+/* Info icon */
+.bi-info-circle::before {
+  color: var(--clr-main-markup) !important;
+  font-size: 1.9em;
+  border-radius: 5px;
+  margin-left: 3em;
+  cursor: pointer;
+  margin-top: 0.2em;
+}
+
+.icons {
+  margin-top: -1em;
+}
+
+/* Star icon */
+.bi-star::before {
+  font-size: 1.9em;
+  width: 100%;
+  color: var(--clr-secondary-markup);
+}
+
+.star {
+  position: relative;
+  left: 25.7em;
+  top: -3em;
+}
+
+.job p {
+  font-size: 1em;
+}
+
+/* Bootstrap modal START */
+.modal-header {
+  border-bottom: none !important;
+}
+
+.modal-content {
+  width: 69em !important;
+  margin-top: 4em !important;
+  height: 47em !important;
+  margin-left: -21em !important;
+  justify-content: center;
+  background-color: var(--clr-job-app);
+  color: white;
+}
+
+.description {
+  width: 57em;
+}
+
+.modal-content p {
+  margin-left: 4em;
+  margin-top: 1em;
+}
+
+.modal-backdrop {
+  opacity: 0.1 !important;
+}
+
+.modal-title {
+  margin-left: 22em !important;
+  border-top: none;
+}
+
+.modal-footer {
+  margin-top: 1em;
+  border-top: none;
+}
+
+.btn {
+  background-color: var(--clr-main-markup);
+  color: var(--clr-font) !important;
+  border: none;
+}
+
+.btn:hover {
+  background-color: var(--clr-main-markup);
+  color: white !important;
+}
+
+.close {
+  color: var(--clr-main-markup);
+  border: none;
+}
+.close:hover {
+  color: var(--clr-main-markup);
+}
+
+/* Bootstrap modal STOP */
+
+/* React paginate START */
+.paginateBttns {
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  color: var(--clr-font);
+}
+.nextBttn:focus {
+  outline: none !important;
+}
+
+.previousBttn:focus {
+  outline: none !important;
+}
+
+.paginateBttns a:focus {
+  outline: none !important;
+}
+
+.paginateBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  color: var(--clr-font);
+  cursor: pointer;
+  background-color: var(--clr-job-app);
+}
+
+.paginateBttns a:hover {
+  color: var(--clr-font);
+  background-color: var(--clr-main-markup);
+  text-decoration: none;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: var(--clr-main-markup);
+}
+
+/* React paginate STOP */
