@@ -17,3 +17,6 @@ ReactJS Pagination Tutorial using React Hooks<br>
 https://www.youtube.com/watch?v=HANSMtDy508<br>
 A ReactJS component to render a pagination.<br>
 https://www.npmjs.com/package/react-paginate<br>
+Movies App - React Project<br>
+https://www.youtube.com/watch?v=sZ0bZGfg_m4<br>
+
