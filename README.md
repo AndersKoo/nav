@@ -1,5 +1,5 @@
 ## Demo
-
+ ![nav](demo.gif)
 
 ## Beskrivelse<br>
 Dette er en enkel app/nettside som henter stillingsannonser fra NAV's REST_API og viser dem til brukeren. Annonsene hentes fra NAV's nettside https://arbeidsplassen.nav.no/
