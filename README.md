@@ -2,7 +2,20 @@
  ![nav](demo.gif)
 
 ## Beskrivelse<br>
-Dette er en enkel app/nettside som henter stillingsannonser fra NAV's REST-API og viser dem til brukeren. Annonsene hentes fra NAV's nettside https://arbeidsplassen.nav.no/
+
+Teknologier: React, REST-API, react-paginate
+
+I NAV prosjektet skulle jeg vise jobbannonser for bruker. Applikasjonen måtte da koples opp mot NAV sitt eget offisielle API. <br>
+Kravet var også å utvikle en funksjon for å kunne klikke seg videre til neste side med annonser, til dette falt valget på react-paginate. <br>
+Et fargetema som var behagelig, men samtidig tiltrekkende var også viktig. Istedenfor å bruke tekstlige forklaringer i hver annonse, valgte jeg å bruke ikoner.
+Annonsene hentes fra NAV's nettside https://arbeidsplassen.nav.no/
+
+I denne prosessen lærte jeg:<br>
+
+•	Koble opp REST-API	•	React-paginate<br>
+•	Fargebruk/tema	•	React useState()<br>
+•	Bootstrap icons	<br>
+
 
 ## Test på egen maskin<br>
 1. Last ned repo
