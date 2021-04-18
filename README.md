@@ -3,7 +3,10 @@
 
 ## Beskrivelse<br>
 
-Teknologier: React, REST-API, react-paginate
+Teknologier: <br>
+• React<br>
+• REST-API<br>
+• react-paginate<br>
 
 I NAV prosjektet skulle jeg vise jobbannonser for bruker. Applikasjonen måtte da koples opp mot NAV sitt eget offisielle API.
 Kravet var også å utvikle en funksjon for å kunne klikke seg videre til neste side med annonser, til dette falt valget på react-paginate. <br>
