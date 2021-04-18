@@ -4,13 +4,15 @@
 ## Beskrivelse<br>
 
 Teknologier: <br>
+
 • React<br>
 • REST-API<br>
 • react-paginate<br>
 
 I NAV prosjektet skulle jeg vise jobbannonser for bruker. Applikasjonen måtte da koples opp mot NAV sitt eget offisielle API.
 Kravet var også å utvikle en funksjon for å kunne klikke seg videre til neste side med annonser, til dette falt valget på react-paginate. <br>
-Et fargetema som var behagelig, men samtidig tiltrekkende var også viktig. Istedenfor å bruke tekstlige forklaringer i hver annonse, valgte jeg å bruke ikoner.
+Et fargetema som var behagelig, men samtidig tiltrekkende var også viktig. Istedenfor å bruke tekstlige forklaringer i hver annonse, valgte jeg å bruke ikoner.<br>
+
 Annonsene hentes fra NAV's nettside https://arbeidsplassen.nav.no/
 
 I denne prosessen lærte jeg:<br>
